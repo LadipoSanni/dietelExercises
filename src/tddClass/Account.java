@@ -1,21 +1,27 @@
 package tddClass;
 
+import java.util.Scanner;
+
 public class Account {
-    private int balance;
-    public void deposit(int amount) {
-        if (amount > 0) {
-            balance = amount + balance;
-        }
+    Scanner input = new Scanner(System.in);
+
+    private String accountNumber;
+    private String firstName;
+    private String lastName;
+    String name = lastName + " " + firstName;   private int pin;
+
+    public Account() {
+
+
     }
-        public int getBalance() {
-            int balance = this.balance;
-            return balance;
-        }
-
-        public void withdraw(int amount){
-            balance = balance - amount;
-        }
 
 
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String getName() {
+        String name = firstName + " " + lastName;
+        return name;
+    }
 }
-
