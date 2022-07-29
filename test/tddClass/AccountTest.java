@@ -1,20 +1,42 @@
-package tddClass;
+//package eBanking;
+//public class BankTest {
 
-import org.junit.jupiter.api.Test;
+//    private Bank gtBank;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
-public class AccountTest {
-    @Test
-    public void accountCanBeCreatedTest(){
-        Account account = new Account();
-        assertNotNull(account);
-    }
-    @Test
-    public void accountCanBeCreatedWithAllDetails(){
-       Account account = new Account();
-        assertEquals("2093797237",account.getAccountNumber());
-        assertEquals("Dami Akinson", account.getName());
-    }
-}
+//    @BeforeEach
+//    public void setUp() {
+//        gtBank = new Bank("GtBank", 10);
+//    }
+//}
+//
+//
+//    @Test
+//    public void bankCanBeCreated(){
+//        Bank gtBank = new Bank("GtBank", 10);
+//        assertNotNull(gtBank);
+//        assertEquals("GtBank", gtBank.getName());
+//        assertEquals(10, gtBank.getMaximumNoOfCustomers());
+//    }
+//
+//    @Test
+//    public void bankCanCreateAccount(){
+//        gtBank.createAccountFor("Saheed", "Osupa", "1234");
+//        gtBank.createAccountFor("SAmaka", "Amazing", "1234");
+//        gtBank.createAccountFor("SLanre", "Lan", "1234");
+//        gtBank.createAccountFor("MyGuy", "Okoro", "1234");
+//        assertEquals(4, gtBank.getNumberOfCustomers());
+//    }
+//
+//    @Test
+//    public void createAccountCheckForFirstCustomerTest(){
+//        gtBank.createAccountFor("Saheed", "Osupa", "1234");
+//        gtBank.createAccountFor("Amaka", "Amazing", "1234");
+//        gtBank.createAccountFor("Lanre", "Lan", "1234");
+//        gtBank.createAccountFor("MyGuy", "Okoro", "1234");
+//        assertEquals(4, gtBank.getNumberOfCustomers());
+//
+//        Accounting account = gtBank.findAccount(4);
+//        assertEquals("MyGuy Okoro", account.getFullName());
+//        assertEquals("4", account.getAccountNumber());
+//    }
+//}

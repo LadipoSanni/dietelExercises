@@ -14,7 +14,15 @@ public class StoneXO {
         sign [2][2] = 'O';
 
 
-        System.out.printf(" %c %c%n%c %c %c%n%c %c %c",sign[0][0],sign[0][1],sign[0][2],sign[1][1],sign[1][2],sign[2][0],sign[2][1],sign[2][2]);
+        System.out.printf(" %c %c%n%c %c %c%n%c %c %c",
+                sign[0][0],
+                sign[0][1],
+                sign[0][2],
+                sign[1][1],
+                sign[1][2],
+                sign[2][0],
+                sign[2][1],
+                sign[2][2]);
 
 
     }

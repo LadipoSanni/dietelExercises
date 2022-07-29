@@ -1,6 +1,7 @@
 package tddClass;
 
-public class GameXO {
+public class
+GameXO {
     public static void main(String[] args) {
         char[][] sign = new char[3][3];
         sign [0][0] = 'X';

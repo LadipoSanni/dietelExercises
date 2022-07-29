@@ -50,6 +50,7 @@ public class Kata {
     }
 
 
+
     public double multiplyAsManyNumber() {
         double result = 0.0;
 

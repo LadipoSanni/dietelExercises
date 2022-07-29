@@ -7,9 +7,10 @@ public class Multiplication {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter digit");
         int digit = input.nextInt();
-        int i = 1;
+        int i=0;
 
-        while( i <= 12){
+
+        while( i < 12){
             i++;
             int answer = digit * i;
             System.out.println(digit +"X" +i +"=" +answer);

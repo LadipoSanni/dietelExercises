@@ -1,2 +1,5 @@
-package tddClass;public class Bank {
+package tddClass;
+
+public class Bank {
+
 }
