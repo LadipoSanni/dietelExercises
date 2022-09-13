@@ -2,9 +2,8 @@ package tddClass;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Scanner;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class KataTest {
 
@@ -28,7 +27,7 @@ class KataTest {
         int result = calculator.subtract(2, 7);
         assertEquals(5, result);
     }
-
+//
     @Test
     public void evenNumberCounterTest() {
         Kata counter = new Kata();
