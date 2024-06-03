@@ -58,6 +58,4 @@ public class TraineeRestController {
     public ApiResponse viewLoanApplicationInformation (@PathVariable String traineeId) throws LearnSpaceException{
         return ApiResponse.ok(traineeController.viewLoanApplicationInfo(traineeId));
     }
-
-
 }
