@@ -1,5 +1,6 @@
 package africa.learnspace.controller.trainee;
 
+
 import africa.learnspace.data.dto.request.CompleteLoanApplicationRequest;
 import africa.learnspace.data.dto.request.EmploymentDetailsUpdateRequest;
 import africa.learnspace.data.dto.request.TraineeProfileUpdateRequest;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 
 import static org.springframework.http.HttpStatus.OK;
+
+
 
 @RestController
 @RequestMapping("/api/v1/trainee")
