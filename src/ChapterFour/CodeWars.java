@@ -17,6 +17,7 @@ public class CodeWars {
            for (char c : outCome) {
                result2 += parseInt(String.valueOf(c));
                }
+        
         if (result2 > 1){
             String conti = String.valueOf(result2);
             char[] c2 = conti.toCharArray();
@@ -24,6 +25,7 @@ public class CodeWars {
                 result3 += parseInt(String.valueOf(c1));
             }
         }
+        
         if (result3 > 1) {
             String contin = String.valueOf(result3);
             char[] c3 = contin.toCharArray();
